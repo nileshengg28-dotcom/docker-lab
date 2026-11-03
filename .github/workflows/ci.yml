@@ -24,7 +24,7 @@ jobs:
           name: output
           path: output
       - name: Test
-        run: grep "version" output/app.txt
+        run: grep "nothing" output/app.txt
 
   deploy:
     needs: test
